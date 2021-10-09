@@ -1,0 +1,85 @@
+/* Styles for main site */
+@media screen {
+    
+}
+.blue {
+    color : blue;
+}
+
+#id {
+    background-color: white;
+}
+
+* {
+    font-family:  'Roboto', sans-serif;
+}
+p:hover {
+    color: white;
+}
+
+ul:active {
+    color:gold;
+}
+
+header {
+    height: 50px;
+    width: 100px;
+    max-width: 100px;
+    max-height: 50px;
+    position: relative;
+}
+p {
+    background-color: grey;
+    line-height: 1em;
+    margin-top: 2ch;
+    margin-bottom: 2ex;
+    margin-left: 2ex;
+    margin-right: 2lh;
+    color: black;
+    text-decoration: firebrick;
+    text-align: left;
+    display: flex;
+}
+
+li {
+    color: blue;
+    display: block;
+    margin: 1px 2px 3px 3px;
+    padding: 1px 1px 1px 1px;
+    position: static;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2em;
+    border-radius: auto;
+    display: flex;
+}
+h1 > p {
+    color : orange;
+}
+
+h2 ul {
+    padding: auto;
+}
+
+li ~ li {
+    margin: auto;
+}
+
+label + textarea {
+    color : indigo;
+}
+
+fieldset.form {
+    margin: 10px 10px 10px 10px;
+}
+ul , h2 , h3 {
+    background-color: lightgrey;
+}
